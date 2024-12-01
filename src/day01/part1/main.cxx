@@ -3,10 +3,10 @@
 
 int main(int argc, char** argv){
 
-	auto lines = GenericToolbox::dumpFileAsVectorString(THIS_DAY_DIR + "/input.txt");
+  auto lines = GenericToolbox::dumpFileAsVectorString(THIS_DAY_DIR + "/input.txt");
 
-	std::vector<long> id1List; id1List.reserve(lines.size());
-	std::vector<long> id2List; id2List.reserve(lines.size());
+  std::vector<long> id1List; id1List.reserve(lines.size());
+  std::vector<long> id2List; id2List.reserve(lines.size());
 
   for( auto& line : lines ){
     auto elm = GenericToolbox::splitString(line, " ", true);
