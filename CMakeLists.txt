@@ -17,3 +17,5 @@ include_directories(include)
 
 add_executable( d01p1 src/day01/part1/main.cxx)
 add_executable( d01p2 src/day01/part2/main.cxx)
+add_executable( d02p1 src/day02/part1/main.cxx)
+add_executable( d02p2 src/day02/part2/main.cxx)
